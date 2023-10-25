@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/estilos.css">
+    <title>Formulário</title>
+</head>
+<body>
+    <figure>
+        <img src="libraslingologo.jpg" id="logo">
+    </figure>
+    <form method="post" action="../index.html">
+        <div class="div-voltar">
+            <button class="btn" onclick=voltar()>VOLTAR</button>
+        </div>
+        <div class="formulario">
+            <fieldset>
+                <label> LOGIN</label>
+                <label for="nickName">NickName :</label>
+                <input type="text" name="nickName" id="nickName" maxlength="20" required>
+
+                <label for="senha">Senha :</label>
+                <input type="password" name="senha" id="senha" maxlength="20" required>
+
+                <input type="submit" value="Enviar">
+                
+            </fieldset>
+        </div>
+    </form>
+    <script src="../script.js"></script>
+</body>
+</html>

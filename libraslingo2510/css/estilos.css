@@ -1,0 +1,73 @@
+*{margin: 0px; padding: 0px;}
+body{
+  background: rgb(52, 170, 170);
+  background-color: #d9d9d9;
+  margin: 30px;
+}
+
+.formulario {
+  max-width: 350px;
+  margin: 80px auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 7px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  background-color: white;
+}
+.btn{
+  font-size: 10px;
+  width:100px;
+  height:35px;
+  cursor: pointer;
+  background-color: gray;
+  box-shadow: 1px 1px 1px 1px;
+  border-radius: 3px;
+}
+.btn:hover{
+  background-color: aqua;
+}
+.formulario label {
+  display: block;
+  margin-bottom: 16px;
+  font-weight: bold;
+}
+.formulario input {
+  width: 90%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+.formulario fieldset{
+  text-align: center;
+  border-radius: 7px;
+}
+.formulario input[type="submit"] {
+  width: 50%;
+  margin-top: 12px;
+  background-color: rgb(52, 170, 170);
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+.formulario input[type="submit"]:hover {
+  background-color: rgb(33, 105, 105);
+}
+
+#logo {
+  border: black solid 2px;
+  border-radius: 10px;
+  margin-top: -15px;
+  width: 100px;
+  height: 100px;
+}
+figure{
+  padding-top: 10px;
+  display: flex;
+  justify-content: center;
+}
+.div-voltar{
+  margin: 30px;
+  display: flex;
+  justify-content: center;
+}
